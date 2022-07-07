@@ -1,13 +1,13 @@
-# Alura Challenge | Oracle One | Lógica de Programación - Encriptador de texto
+# Alura Challenge | Oracle One | Front-End - Portfolio
 
-### Un simple pero poderoso encriptador / desencriptador
+### Les presento mi portfolio personal, en donde podrán conocerme más profundamente... conocer mis hobbies, un poco de mi historia personal, ver mis proyectos y mucho más. Muchas gracias!
 
-_Desarrollado por completo con Javascript, este sencillo pero potente encriptador permitirá intercambiar mensajes cifrados con cualquiera que conozca las reglas!!!_
+_Desarrollado por completo con Javascript, HTML y CSS_
 
 
 <!-- CONTACT -->
 ## Contacto
 
-Linkedin Profile - [https://www.linkedin.com/in/maximilianomonta%C3%B1a/](https://www.linkedin.com/in/maximilianomonta%C3%B1a/)
+Linkedin Profile - [https://www.linkedin.com/in/maximilianomontana/](https://www.linkedin.com/in/maximilianomontana/)
 
 GitHub Profile: [https://github.com/momr01](https://github.com/momr01)
