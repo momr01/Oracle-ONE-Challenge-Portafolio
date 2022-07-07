@@ -1,0 +1,34 @@
+.idiomas {
+  background-color: #ffcb96;
+}
+
+.section__idiomas__container {
+  margin: 0 auto;
+  padding: 3em 0;
+  width: 80%;
+}
+.section__idiomas__box {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 0;
+  width: 100%;
+}
+.section__idiomas__box__img {
+  box-shadow: 1rem 1rem 2rem grey;
+  width: 40%;
+}
+.section__idiomas__box__info {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  width: 30%;
+}
+.section__idiomas__box__info__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.section__idiomas__box__info__text {
+  font-style: italic;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,132 @@
+/*Contacto*/
+
+section.formcontato {
+  background-color: #ffcb96;
+  height: 40em;
+  width: 100%;
+}
+
+.formcontato__text {
+  margin: auto 0;
+  width: 50%;
+}
+
+.formcontato__esquerda {
+  height: 100%;
+  width: 50%;
+}
+
+.formcontato__esquerda {
+  align-items: center;
+  display: flex;
+}
+
+.formcontato__img {
+  margin: auto 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.formcontato__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.formcontato__subtext {
+  font-size: 1rem;
+  font-style: italic;
+  width: 100%;
+}
+
+.formcontato__subtext:nth-child(2),
+.formcontato__subtext:nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+.formcontato__contacto {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 98%;
+}
+
+.formcontato__input {
+  border: none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  height: 3rem;
+  margin: 0;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.formcontato__form__border__red {
+  border: 3px solid red !important;
+}
+
+.formcontato__form__border__green {
+  border: 3px solid green !important;
+}
+
+.formcontato__form input::placeholder,
+.formcontato__form textarea::placeholder {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.formcontato__form input:focus,
+.formcontato__form textarea:focus {
+  border: 3px solid #2a7ae4 !important;
+}
+
+.formcontato__textarea {
+  border: none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0.5rem;
+  resize: none;
+  width: 100%;
+}
+
+.formcontato__error__hide {
+  display: none;
+}
+
+.formcontato__error__show {
+  color: #e21313;
+  display: block;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.formcontato__botao {
+  background-color: #2a7ae4;
+  border: 0.1rem solid #2a7ae4;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  height: 3.5rem;
+}
+
+.formcontato__botao:hover {
+  cursor: pointer;
+}
+
+.formcontato__input__error__mensaje {
+  color: #e21313;
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0.5rem 0;
+  padding: 0;
+}

@@ -1,0 +1,45 @@
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.menu__title {
+  margin: auto 0;
+}
+
+.menu__container nav {
+  font-size: 0.8rem;
+  margin: auto 0;
+  width: 60%;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.menu__list__item a:hover {
+  color: #ffcb96;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.menu__header img {
+  height: 2em;
+  margin: auto 1em;
+  width: 2em;
+}
+
+.menu__btn__responsive {
+  display: none;
+}

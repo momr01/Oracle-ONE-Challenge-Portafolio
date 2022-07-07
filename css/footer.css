@@ -1,0 +1,13 @@
+/*footeer*/
+
+.footer__rodape {
+  text-align: center;
+}
+
+.footer__rodape:first-child {
+  padding-top: 2em;
+}
+
+.footer__rodape:last-child {
+  padding-bottom: 2em;
+}

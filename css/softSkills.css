@@ -1,0 +1,30 @@
+.section__soft__skills {
+  padding: 3rem 0;
+}
+
+.section__soft__skills__container {
+  box-shadow: 1rem 1rem 2rem rgb(136, 134, 134);
+  margin: 0 auto;
+  padding: 2rem 0 4rem 0;
+  width: 80%;
+}
+
+.section__soft__skills__ul__container {
+  text-align: center;
+}
+
+.section__soft__skills__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section__soft__skills__ul li {
+  border-radius: 1rem;
+  color: #6d4012;
+  font-weight: bold;
+  font-size: 1.2;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  width: 10rem;
+}

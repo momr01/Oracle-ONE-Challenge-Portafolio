@@ -1,0 +1,60 @@
+/*Sección Title*/
+.title {
+  background-color: #ffcb96;
+}
+.title__div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 3rem 0;
+  width: 80%;
+}
+
+.title__profile__container {
+  align-items: center;
+  display: flex;
+  order: 1;
+  width: 30%;
+}
+
+.title__profile {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.title__container {
+  display: flex;
+  width: 70%;
+}
+
+.title__container__container {
+  margin: auto 0;
+  padding: 0 1rem;
+}
+
+.title__bio {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.title__subsection {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.title__network {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.title__network__item {
+  margin-right: 1rem;
+}
+
+.title__network__item img {
+  width: 3rem;
+}
