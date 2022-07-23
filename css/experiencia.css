@@ -11,6 +11,7 @@
 }
 
 .experience__box {
+  align-items: center;
   display: flex;
   justify-content: space-around;
   margin-bottom: 2em;
@@ -23,6 +24,7 @@
 
 .experience__img__edemsa {
   box-shadow: 1rem 1rem 2rem grey;
+  height: 100%;
   margin-bottom: 3rem;
   width: 30%;
 }
