@@ -1,5 +1,5 @@
 /*Tablet*/
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 800px) {
   /*Menu*/
   .menu__container {
     display: block;
@@ -75,9 +75,19 @@
     width: 32%;
   }
 
+  .skills__box ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .skills__container,
   .hobbies__container {
     width: 90%;
+  }
+
+  .skills__img {
+    margin-bottom: 1rem;
   }
 
   .section__soft__skills__container {
@@ -103,7 +113,8 @@
     flex-direction: column;
   }
 
-  .academic__courses__box {
+  .academic__courses__box__oficial,
+  .academic__courses__box__cursos {
     height: auto;
     margin-bottom: 2rem;
     width: 100%;
@@ -139,7 +150,10 @@
   }
 
   .experience__info,
+  .experience__info__edemsa,
   .section__idiomas__box__info {
+    box-sizing: border-box;
+    padding: 0 1rem;
     width: 100%;
   }
 
@@ -150,12 +164,13 @@
 
   .experience__img__edemsa {
     margin-bottom: 2rem;
-    width: 100%;
+    width: 50%;
   }
 
   .experience__box {
     border: none;
     box-shadow: 1rem 1rem 2rem grey;
+    text-align: center;
   }
 
   /*Contacto*/
@@ -319,7 +334,8 @@
   .academic__titulos .academic__courses {
     display: block;
   }
-  .academic__courses__box {
+  .academic__courses__box__oficial,
+  .academic__courses__box__cursos {
     height: auto;
     margin: 1rem auto;
     padding: 2rem 0;
@@ -349,6 +365,7 @@
   }
 
   .experience__info,
+  .experience__info__edemsa,
   .section__idiomas__box__info {
     width: 100%;
   }

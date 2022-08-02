@@ -36,6 +36,13 @@
   width: 30%;
 }
 
+.experience__info__edemsa {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  width: 55%;
+}
+
 .experience__title {
   font-size: 1.5rem;
   font-weight: bold;

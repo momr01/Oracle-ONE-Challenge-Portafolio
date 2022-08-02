@@ -24,7 +24,7 @@
 .academic__cursos .academic__courses {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -33,7 +33,7 @@
   padding: 0;
 }
 
-.academic__courses__box {
+.academic__courses__box__oficial {
   align-self: center;
   background-color: #f5f5f5;
   border-radius: 0.5rem;
@@ -42,6 +42,20 @@
   flex-direction: column;
   height: 30rem;
   justify-items: auto;
+  padding: 1rem;
+  width: 40%;
+}
+
+.academic__courses__box__cursos {
+  align-self: center;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 2rem grey;
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  justify-items: auto;
+  margin-bottom: 2rem;
   padding: 1rem;
   width: 30%;
 }
