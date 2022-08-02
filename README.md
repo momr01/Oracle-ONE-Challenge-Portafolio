@@ -8,9 +8,9 @@ _Este proyecto es parte del programa Oracle One Alura._
 
 _Secciones disponibles: Sobre mí, Hard skills, Soft skills, Idiomas, Hobbies, Estudios formales, Cursos, Experiencia profesional, Proyectos y Contactos._
 
-![Cat](https://github.com/momr01/Oracle-ONE-Challenge-Portafolio/blob/main/assets/experiencia-laboral/edemsa.png)
 
 ## GitHub Pages: [https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/](https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/)
+
 
 <!-- CONTACT -->
 ## Contacto
