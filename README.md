@@ -2,9 +2,9 @@
 
 ### Les presento mi portfolio personal, en donde podrán conocerme más profundamente... conocer mis hobbies, un poco de mi historia personal, ver mis proyectos y mucho más. Muchas gracias!
 
-_Desarrollado por completo con Javascript, HTML y CSS_
+_Desarrollado por completo con Javascript, HTML y CSS._
 
-_Este proyecto es parte del programa Oracle One Alura_ 
+_Este proyecto es parte del programa Oracle One Alura._ 
 
 _Secciones disponibles: Sobre mí, Hard skills, Soft skills, Idiomas, Hobbies, Estudios formales, Cursos, Experiencia profesional, Proyectos y Contactos._
 
