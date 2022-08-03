@@ -14,6 +14,11 @@ _Secciones disponibles: Sobre mí, Hard skills, Soft skills, Idiomas, Hobbies, E
 
 ![Main](https://github.com/momr01/Oracle-ONE-Challenge-Portafolio/blob/main/assets/proyecto-actual/general.PNG)
 
+   
+* * *
+
+   
+
 ![HardSkills](https://github.com/momr01/Oracle-ONE-Challenge-Portafolio/blob/main/assets/proyecto-actual/hardSkills.PNG)
 
 ![Proyectos](https://github.com/momr01/Oracle-ONE-Challenge-Portafolio/blob/main/assets/proyecto-actual/proyectos.PNG)
