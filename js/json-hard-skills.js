@@ -16,6 +16,6 @@ const html = (res) => {
 jsonBase.createStructure(
   "skills__line",
   "skills__box",
-  "../db/db-hard-skills.json",
+  "https://github.com/momr01/Oracle-ONE-Challenge-Portafolio/blob/main/db/db-hard-skills.json",
   html
 );
