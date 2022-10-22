@@ -26,8 +26,8 @@ const msjErroneos = new MensajeError(
 const expresiones = {
   nombre: "^([a-zA-Z]+[',.-]?[a-zA-Z ]*)+[ ]([a-zA-Z]+[',.-]?[a-zA-Z ]+)+$",
   email: "^([a-z0-9]+)[._-]?([a-z0-9]?)+[@][a-z]+[.][a-z]+[.]?[a-z]+$",
-  asunto: "^[a-z]{3,50}$",
-  mensajes: "^[a-z]{3,300}$",
+  asunto: "[a-zA-Z\s\W]+",
+  mensajes: "[a-zA-Z\s\W]+",
 };
 
 const showError = (input, index, element, msj, formulario) => {
@@ -77,12 +77,7 @@ formulario.addEventListener("submit", (e) => {
     formData.asunto !== "" &&
     formData.mensajes !== ""
   ) {
-    console.log(formData);
-    Swal.fire({
-      icon: "success",
-      title: "Enviado!",
-      text: "Su mensaje se envió con éxito. En breve me pondré en contacto.",
-    });
+    window.open(`mailto:maxi.omr01@gmail.com?subject=${formData.asunto}&body=${formData.mensajes}`);
     inputs.forEach((input) => {
       input.classList.remove("formcontato__form__border__green");
     });
