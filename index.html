@@ -388,59 +388,7 @@
       <section class="academic__titulos" id="formacion">
         <div class="academic__container">
           <h2 class="academic__title">Formación académica oficial</h2>
-          <div class="academic__courses">
-            <div class="academic__courses__box__oficial">
-              <ul class="academic__courses__list">
-                <li class="academic__courses__item__img">
-                  <img src="assets/formacion/formacion-issd.jfif" alt="issd" />
-                </li>
-                <li class="academic__courses__item__title">
-                  <h4>Tecnicatura Superior en Desarrollo de Software</h4>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>ISSD</p>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>Resolución 0862/21</p>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>Agosto 2021 - Presente</p>
-                </li>
-              </ul>
-            </div>
-            <div class="academic__courses__box__oficial">
-              <ul class="academic__courses__list">
-                <li class="academic__courses__item__img">
-                  <img
-                    src="assets/formacion//formacion-uncuyo.png"
-                    alt="uncuyo"
-                  />
-                </li>
-                <li class="academic__courses__item__title">
-                  <h4>Licenciatura en Administración</h4>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>UNCUYO - FCE</p>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>Resolución 0588/04</p>
-                </li>
-
-                <li class="academic__courses__item__subtitle">
-                  <p>2012 - 2017</p>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>Título obtenido: “Licenciado en Administración”.</p>
-                </li>
-                <li class="academic__courses__item__subtitle">
-                  <p>
-                    Habilidades adquiridas: análisis organizacional, análisis
-                    del sector público, paquete office, entre otros.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <div id="academic__courses" class="academic__courses"></div>
         </div>
       </section>
 
@@ -532,17 +480,6 @@
       <section class="experience__profesional">
         <div class="experience__container">
           <h2 class="experience__section__title">Experiencia Profesional</h2>
-          <!-- <div class="experience__box__edemsa">
-            <img class="experience__img__edemsa" src="./assets/experiencia-laboral/edemsa.png" alt="EDEMSA" />
-            <div class="experience__info">
-              <h2 class="experience__title">
-                EDEMSA
-              </h2>
-              <h3 class="experience__text">Mayo 2017 - presente</h3>
-              
-              <p>CV.pd</p>
-            </div>
-          </div> -->
           <div class="experience__box">
             <img
               class="experience__img__edemsa"
@@ -572,9 +509,9 @@
       </section>
 
       <section class="experience__proyectos" id="xp">
-        <div class="experience__container">
+        <div class="experience__container" id="experience__container">
           <h2 class="experience__section__title">Proyectos</h2>
-          <div class="experience__box">
+          <!-- <div class="experience__box">
             <img
               class="experience__img"
               src="assets/proyectos/proyecto-encriptador01.PNG"
@@ -763,7 +700,7 @@
                 >
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -848,5 +785,8 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="./js/validacion.js"></script>
     <script type="module" src="./js/navResponsive.js"></script>
+    <script type="module" src="./js/json-estudios-academicos.js"></script>
+    <!-- <script type="module"src="./js/json-base.js"></script> -->
+    <script type="module" src="./js/json-proyectos.js"></script>
   </body>
 </html>
