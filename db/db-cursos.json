@@ -1,0 +1,29 @@
+[
+    {
+        "img": "assets/formacion/formacion-oracle-one-alura.webp",
+        "alt": "alura",
+        "title": "Programa Oracle ONE Alura",
+        "date": "Marzo 2022 - Presente",
+        "skills": "Habilidades adquiridas= HTML5 - CSS3 - Javascript - Git - Trello - Figma",
+        "link": {
+            "href": "https://app.aluracursos.com/emprega-one/profile/maxi-omr01",
+            "name": "Ir al perfil de EmpleaONE"
+        }
+    },
+    {
+        "img": "./assets/formacion/formacion-udemy.png",
+        "alt": "udemy",
+        "title": "Udemy",
+        "date": "Agosto 2020 - Julio 2021",
+        "skills": "Habilidades adquiridas= React - NodeJS - MongoDB - SQL - Bootstrap - Java.",
+        "link": ""
+    },
+    {
+        "img": "./assets/formacion/formacion-cursemia.png",
+        "alt": "cursemia",
+        "title": "Cursemia",
+        "date": "Agosto 2020 - Julio 2021",
+        "skills": "Habilidades adquiridas= React - NodeJS - MongoDB - SQL - Bootstrap - Java.",
+        "link": ""
+    }
+]

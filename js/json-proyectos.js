@@ -5,19 +5,19 @@ const html = (res) => {
     <div class="experience__box">
             <img
               class="experience__img"
-              src="assets/proyectos/proyecto-encriptador01.PNG"
-              alt="encriptador"
+              src=${res.img}
+              alt=${res.alt}
             />
             <div class="experience__info">
-              <h2 class="experience__title">Encriptador de texto</h2>
+              <h2 class="experience__title">${res.title}</h2>
               <h3 class="experience__text">
-                Proyecto del Programa Oracle ONE Alura
+                ${res.subtitle}
               </h3>
-              <h3 class="experience__text">HTML - CSS - Javascript</h3>
+              <h3 class="experience__text">${res.tec}</h3>
               <div class="experience__description">
                 <span class="experience__repo"
                   ><a
-                    href="https://github.com/momr01/Oracle-ONE-Challenge-Encriptador"
+                    href=${res.repository}
                     ><button class="experiencia__botao--repo">
                       Repositorio
                     </button></a
@@ -25,7 +25,7 @@ const html = (res) => {
                 >
                 <span class="experience__demo"
                   ><a
-                    href="https://momr01.github.io/Oracle-ONE-Challenge-Encriptador/"
+                    href=${res.demo}
                     ><button class="experience__botao--demo">
                       Ver demo
                     </button></a
@@ -41,6 +41,6 @@ const html = (res) => {
 jsonBase.createStructure(
   "experience__container",
   "experience__box",
-  "../db/db-estudios.json",
+  "../db/db-proyectos.json",
   html
 );
