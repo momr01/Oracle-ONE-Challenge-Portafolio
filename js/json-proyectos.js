@@ -2,7 +2,6 @@ import { jsonBase } from "./json-base.js";
 
 const html = (res) => {
   let html = `
-    <div class="experience__box">
             <img
               class="experience__img"
               src=${res.img}
@@ -32,8 +31,7 @@ const html = (res) => {
                   ></span
                 >
               </div>
-            </div>
-          </div>`
+            </div>`
 
   return html;
 };
