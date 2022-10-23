@@ -9,7 +9,12 @@ const createStructure = (classContainer, classDiv, path, htmlFunction) => {
     container.appendChild(div);
   };
 
-  fetch(path)
+  fetch(path, {
+    method: "GET",
+    headers: {
+      accept: "application/json",
+    },
+  })
     .then((res) => res.json())
     .then((res) => {
       res.forEach((element) => {
