@@ -52,9 +52,24 @@
         "tec": "MERN (MongoDB - Express - React - NodeJS)",
         "repository": "https://github.com/momr01/mern-tasks",
         "demo": "https://cozy-lokum-cfcbab.netlify.app/"
+    },
+    {
+        "img": "./assets/proyectos/proyecto-hotel.gif",
+        "alt": "hotel",
+        "title": "Java Desktop App - Hotel",
+        "subtitle": "Esta aplicación de escritorio realizada enteramente con el lenguaje Java, es un desafiante proyecto del programa Oracle One Alura, en donde será posible llevar el registro de huéspedes y reservas.",
+        "tec": "Java - Maven - MySQL - Hibernate",
+        "repository": "https://github.com/momr01/java-hotel-OracleOne",
+        "demo": "https://www.youtube.com/watch?v=MxuznFRFcDo"
+    },
+    {
+        "img": "./assets/proyectos/proyecto-conversor.gif",
+        "alt": "conversor",
+        "title": "Java Desktop App - Conversor",
+        "subtitle": "Esta aplicación de escritorio realizada enteramente con el lenguaje Java, es un simple pero poderoso conversor de monedas que permite conocer el equivalente de pesos argentinos a otras monedas internacionales disponibles y viceversa.",
+        "tec": "Java - Maven - JSON",
+        "repository": "https://github.com/momr01/java-conversor-OracleOne",
+        "demo": "https://www.youtube.com/watch?v=YNUX1GiGqmo"
     }
-
-
-
 
 ]
