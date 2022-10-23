@@ -26,6 +26,6 @@ const html = (res) => {
 jsonBase.createStructure(
   "academic__courses",
   "academic__courses__box__oficial",
-  "https://momr01.github.io/portfolio-jsonapi/db-estudios.json",
+  "https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/db/db-estudios.json",
   html
 );

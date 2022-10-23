@@ -41,6 +41,6 @@ const html = (res) => {
 jsonBase.createStructure(
   "experience__container",
   "experience__box",
-  "https://momr01.github.io/portfolio-jsonapi/db-proyectos.json",
+  "https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/db/db-proyectos.json",
   html
 );

@@ -13,7 +13,12 @@ const crearItem = (res) => {
   container.appendChild(li);
 };
 
-fetch("https://momr01.github.io/portfolio-jsonapi/db-redes-sociales.json")
+fetch("https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/db/db-redes-sociales.json", {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+  },
+})
   .then((res) => res.json())
   .then((res) =>
     res.forEach((element) => {

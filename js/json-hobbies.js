@@ -16,7 +16,7 @@ const html = (res) => {
 jsonBase.createStructure(
   "hobbies__line",
   "hobbies__box",
-  "https://momr01.github.io/portfolio-jsonapi/db-hobbies.json",
+  "https://momr01.github.io/Oracle-ONE-Challenge-Portafolio/db/db-hobbies.json",
   html
 );
 
