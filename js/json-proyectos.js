@@ -41,6 +41,6 @@ const html = (res) => {
 jsonBase.createStructure(
   "experience__container",
   "experience__box",
-  "../db/db-proyectos.json",
+  "https://momr01.github.io/portfolio-jsonapi/db-proyectos.json",
   html
 );

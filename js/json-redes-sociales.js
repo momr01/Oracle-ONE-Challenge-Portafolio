@@ -13,7 +13,7 @@ const crearItem = (res) => {
   container.appendChild(li);
 };
 
-fetch("../db/db-redes-sociales.json")
+fetch("https://momr01.github.io/portfolio-jsonapi/db-redes-sociales.json")
   .then((res) => res.json())
   .then((res) =>
     res.forEach((element) => {

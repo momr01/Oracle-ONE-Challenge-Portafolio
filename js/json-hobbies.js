@@ -16,7 +16,7 @@ const html = (res) => {
 jsonBase.createStructure(
   "hobbies__line",
   "hobbies__box",
-  "../db/db-hobbies.json",
+  "https://momr01.github.io/portfolio-jsonapi/db-hobbies.json",
   html
 );
 
